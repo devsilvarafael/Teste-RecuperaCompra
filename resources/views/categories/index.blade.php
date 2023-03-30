@@ -46,7 +46,8 @@
         </div>
 
         <div class="mt-12">
-            <a href="{{ route('categories.create') }}">Adicionar categorias</a>
+            <a href="{{ route('categories.create') }}"
+                class="w-14 h-14 bg-cyan-700 p-2 rounded-md text-white font-bold">Adicionar categorias</a>
 
             <table class="min-w-full text-left text-sm font-light mt-4">
                 <thead class="border-b font-medium dark:border-neutral-500">
