@@ -19,8 +19,12 @@ Clonar e instalar
 
 Iniciar ambiente de desenvolvimento
 
-    backend: php artisan serve
-    frontend: npm run dev
+    Gerar tabelas no DB: php artisan migrate
+    
+    Gerar seeds: php artisan db:seed
+    
+    Iniciar servidor: php artisan server
+    Iniciar frontend: npm run dev
 
 Env
 
