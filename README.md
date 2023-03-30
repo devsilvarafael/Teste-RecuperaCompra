@@ -17,7 +17,30 @@ Clonar e instalar
     e
     npm install
 
-Iniciar ambiente de desenvolvimento:
+Iniciar ambiente de desenvolvimento
 
     backend: php artisan serve
     frontend: npm run dev
+
+Env
+
+    Em DB_DATABASE, certifique-se que não há nenhum DB com este nome, caso haja, troque o nome.
+    
+    DB_DATABASE=teste_recuperacompra
+    DB_USERNAME=root
+    DB_PASSWORD=admin
+    
+Rotas
+    
+    /login - Fazer login na aplicação, sem o login você não acessa as outras rotas.
+    /painel/usuarios - Lista dos usuários cadastrados.
+    /painel/categorias - Lista das categorias cadastradas.
+    
+    /painel/usuarios/cadastrar - Formulário de cadastro de um novo usuário, caso o e-mail já exista um erro será mostrado.
+    /painel/categorias/cadastrar - Formulário de cadastro de uma nova categoria.
+ 
+    /painel/usuarios/editar/{id} - Editar usuário buscando pelo ID.
+    /painel/categorias/editar/{id} - Editar categoria buscando pelo ID.
+
+    + rotas de busca pelo input onde é realizado uma query no banco trazendo os dados procurados.   
+    
