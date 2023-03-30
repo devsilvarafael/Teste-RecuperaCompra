@@ -34,6 +34,15 @@ Env
     DB_USERNAME=root
     DB_PASSWORD=admin
     
+Login
+
+    Após gerar os seeds, basta logar em um dos usuários já criados.
+    
+    Padrão:
+    
+    E-mail: admin@admin.com
+    Password: admin
+       
 Rotas
     
     /login - Fazer login na aplicação, sem o login você não acessa as outras rotas.
